@@ -1,4 +1,2 @@
-github.com/akamensky/argparse v1.3.1 h1:kP6+OyvR0fuBH6UhbE6yh/nskrDEIQgEA1SUXDPjx4g=
-github.com/akamensky/argparse v1.3.1/go.mod h1:S5kwC7IuDcEr5VeXtGPRVZ5o/FdhcMlQz4IZQuw64xA=
-github.com/jsypower/PortScan v0.0.0-20220716011441-4bfc0aac5539 h1:p/S94dFFzQYKG6HuIoDaivOIVB4iCJ876fdXeLl6b3s=
-github.com/jsypower/PortScan v0.0.0-20220716011441-4bfc0aac5539/go.mod h1:b3lVOArivm6ajLXzKMfLeGVwrjrAa8D6m+S7SoY+v4E=
+github.com/jsypower/PortScan/Scanner v0.0.0-20220716020903-778d2a760f6c h1:m1DXP1pZ5s7SB8YtLNm6y435X5+5Kuq6bmpkgzgFCFo=
+github.com/jsypower/PortScan/Scanner v0.0.0-20220716020903-778d2a760f6c/go.mod h1:RgAbVQpzLui66t8mwUbniaU56mrg6N964cSrFyYQgas=
