@@ -52,13 +52,13 @@ func main() {
 
 	log.Printf("Target: %s", *S_FLAG_HOST)
 	var _iPorts []string
-	// Convert CSV Port Range
+	// Convert Hyphenated Port Range
 	if strings.Contains(*S_FLAG_PORT, "-") && !strings.Contains(*S_FLAG_PORT, ",") {
 		_sPorts := strings.Split(*S_FLAG_PORT, "-")
 		_iPorts = GeneratePortRange(_sPorts)
 	}
 
-	// Convert Hyphenated Port Range
+	// Convert CSV Port Range
 	if strings.Contains(*S_FLAG_PORT, ",") && !strings.Contains(*S_FLAG_PORT, "-") {
 		_sPorts := strings.Split(*S_FLAG_PORT, ",")
 		_iPorts = GeneratePortList(_sPorts)
